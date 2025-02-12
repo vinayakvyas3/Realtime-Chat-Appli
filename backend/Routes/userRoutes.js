@@ -3,7 +3,7 @@ const {
   loginController,
   registerController,
   fetchAllUsersController,
-} = require("../Controllers/userController");
+} = require("../controllers/userController");
 
 const { protect } = require("../middleware/authMiddleware");
 
